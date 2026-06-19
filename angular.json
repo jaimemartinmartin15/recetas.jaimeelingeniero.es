@@ -51,11 +51,19 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*.png",
+                "input": "src/recipes/lunch/macarrones/",
+                "output": "/assets/macarrones/"
+              },
+              {
+                "glob": "**/*.png",
+                "input": "src/recipes/desserts/mouse-de-chocolate",
+                "output": "/assets/mouse-de-chocolate/"
               }
             ],
-            "styles": [
-              "src/styles.scss"
-            ]
+            "styles": ["src/styles.scss"]
           },
           "configurations": {
             "production": {

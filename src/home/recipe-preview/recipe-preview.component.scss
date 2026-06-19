@@ -1,0 +1,43 @@
+:host {
+  position: relative;
+  display: inline-block;
+  width: 138px;
+  height: 165px;
+  border-radius: 5px;
+  background-size: contain;
+  cursor: pointer;
+}
+
+:host([easy]) {
+  --dificulty-color: #6ade6a;
+}
+:host([medium]) {
+  --dificulty-color: #d2de6a;
+}
+:host([difficult]) {
+  --dificulty-color: #de766a;
+}
+
+.time-to-cook {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: var(--dificulty-color);
+  border-radius: 5px;
+  padding: 4px 8px;
+  color: white;
+  font-weight: bold;
+}
+
+.name {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: white;
+  border: 2px solid var(--dificulty-color);
+  border-radius: 5px;
+  padding: 4px 10px;
+  font-weight: bold;
+  max-width: calc(100% - 20px);
+  box-sizing: border-box;
+}
