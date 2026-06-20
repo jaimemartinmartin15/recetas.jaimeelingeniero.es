@@ -54,13 +54,8 @@
               },
               {
                 "glob": "**/*.png",
-                "input": "src/recipes/lunch/macarrones/",
-                "output": "/assets/macarrones/"
-              },
-              {
-                "glob": "**/*.png",
-                "input": "src/recipes/desserts/mouse-de-chocolate",
-                "output": "/assets/mouse-de-chocolate/"
+                "input": "src/recipes",
+                "output": "/assets/"
               }
             ],
             "styles": ["src/styles.scss"]
