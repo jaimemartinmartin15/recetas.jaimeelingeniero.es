@@ -1,0 +1,26 @@
+{
+  "name": "app-schematics",
+  "version": "1.0.0",
+  "description": "Schematics for the app",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "build:watch": "tsc -p tsconfig.json --watch",
+    "clean": "rm -rf src/recipe-page/*.js src/recipe-page/*.map src/recipe-page/*.d.ts"
+  },
+  "keywords": [
+    "schematics"
+  ],
+  "author": "Jaime Martín Martín",
+  "license": "MIT",
+  "schematics": "./src/collection.json",
+  "dependencies": {
+    "@angular-devkit/core": "^22.0.3",
+    "@angular-devkit/schematics": "^22.0.3",
+    "typescript": "~6.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "@types/jasmine": "~6.0.0",
+    "jasmine": "^6.3.0"
+  }
+}

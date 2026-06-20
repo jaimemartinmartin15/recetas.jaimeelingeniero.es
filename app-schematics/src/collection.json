@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "recipe-page": {
+      "description": "Schematic that generates the setup for a new recipe page",
+      "factory": "./recipe-page/index#recipePage",
+      "schema": "./recipe-page/schema.json"
+    }
+  }
+}
