@@ -1,21 +1,15 @@
 import { Routes } from "@angular/router";
 import { HomeComponent } from "../home/home.component";
+import { RecipeDetailsComponent } from "../recipe-details/recipe-details.component";
 
 export const routes: Routes = [
   {
-    path: "macarrones",
-    loadComponent: () => import("../recipes/macarrones/macarrones").then((m) => m.MacarronesComponent),
-  },
-  {
-    path: "mouse-de-chocolate",
-    loadComponent: () => import("../recipes/mouse-de-chocolate/mouse-de-chocolate").then((m) => m.MouseDeChocolateComponent),
-  },
-  {
-    path: "sandwitch",
-    loadComponent: () => import("../recipes/sandwitch/sandwitch").then((m) => m.SandwitchComponent),
+    path: ":recipeName",
+    component: RecipeDetailsComponent,
   },
   {
     path: "",
+    pathMatch: "full",
     component: HomeComponent,
   },
   {

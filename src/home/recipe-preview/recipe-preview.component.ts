@@ -1,28 +1,34 @@
-import { Component, HostBinding, HostListener, Input } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component, HostBinding, HostListener, Input } from "@angular/core";
+import { Router } from "@angular/router";
+import { RecipePreview } from "../../recipes/models/recipe-preview";
 
 @Component({
-  selector: 'app-recipe-preview',
-  templateUrl: './recipe-preview.component.html',
-  styleUrls: ['./recipe-preview.component.scss'],
+  selector: "app-recipe-preview",
+  templateUrl: "./recipe-preview.component.html",
+  styleUrls: ["./recipe-preview.component.scss"],
 })
 export class RecipePreviewComponent {
   @Input()
-  public link: string;
+  public recipePreview: RecipePreview;
 
-  @Input()
-  public name: string;
+  @HostBinding("attr.easy")
+  get difficultyEasy() {
+    return this.recipePreview.difficulty === "easy" || null;
+  }
 
-  @Input()
-  public timeToCook: string;
-  
-  @Input()
-  @HostBinding('style.background-image')
-  public sourceImage: string;
+  @HostBinding("attr.medium")
+  get difficultyMedium() {
+    return this.recipePreview.difficulty === "medium" || null;
+  }
 
-  @HostListener('click')
+  @HostBinding("attr.difficult")
+  get difficultyDifficult() {
+    return this.recipePreview.difficulty === "difficult" || null;
+  }
+
+  @HostListener("click")
   public openRecipe() {
-    this.router.navigate([this.link]);
+    this.router.navigate([this.recipePreview.name.replaceAll(" ", "-").toLowerCase()]);
   }
 
   public constructor(private readonly router: Router) {}

@@ -1,35 +1,3 @@
-<h1>Comidas</h1>
-
-<section>
-  <app-recipe-preview
-    easy
-    [name]="'Macarrones'"
-    [timeToCook]="'25 min'"
-    [link]="'macarrones'"
-    [sourceImage]="'url(/assets/macarrones/macarrones.png)'"
-  ></app-recipe-preview>
-</section>
-
-<h1>Cenas</h1>
-
-<section>
-  <app-recipe-preview
-    difficult
-    [name]="'Sandwitch'"
-    [timeToCook]="'15 min'"
-    [link]="'sandwitch'"
-    [sourceImage]="'url(/assets/sandwitch/sandwitch.png)'"
-  ></app-recipe-preview>
-</section>
-
-<h1>Postres</h1>
-
-<section>
-  <app-recipe-preview
-    medium
-    [name]="'Mouse de chocolate'"
-    [timeToCook]="'30 min'"
-    [link]="'mouse-de-chocolate'"
-    [sourceImage]="'url(/assets/mouse-de-chocolate/mouse-de-chocolate.png)'"
-  ></app-recipe-preview>
-</section>
+@for (recipePreview of recipePreviews; track $index) {
+  <app-recipe-preview [recipePreview]="recipePreview"></app-recipe-preview>
+}
