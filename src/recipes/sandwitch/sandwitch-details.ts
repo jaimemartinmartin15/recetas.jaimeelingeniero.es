@@ -5,4 +5,5 @@ export const SANDWITCH_DETAILS: RecipeDetails = {
   ingredients: [
     // TODO
   ],
+  steps: [],
 };

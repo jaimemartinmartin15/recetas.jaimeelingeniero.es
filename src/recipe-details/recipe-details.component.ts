@@ -1,5 +1,6 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, OnInit, signal, WritableSignal } from "@angular/core";
 import { ActivatedRoute, Router } from "@angular/router";
+import { RecipeDetails } from "../recipes/models/recipe-details";
 import { RecipeService } from "../services/recipes.service";
 
 @Component({
@@ -8,6 +9,8 @@ import { RecipeService } from "../services/recipes.service";
   styleUrls: ["./recipe-details.component.scss"],
 })
 export class RecipeDetailsComponent implements OnInit {
+  public recipeDetails = signal<RecipeDetails | undefined>(undefined);
+
   public constructor(
     private readonly router: Router,
     private readonly activatedRoute: ActivatedRoute,
@@ -19,9 +22,10 @@ export class RecipeDetailsComponent implements OnInit {
     this.recipeService.getRecipeDetails(recipeName).subscribe((response) => {
       if (response === undefined) {
         this.router.navigate([""]);
+        return;
       }
 
-      // TODO
+      this.recipeDetails.set(response);
     });
   }
 }

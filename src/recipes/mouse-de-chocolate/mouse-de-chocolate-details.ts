@@ -5,4 +5,5 @@ export const MOUSE_DE_CHOCOLATE_DETAILS: RecipeDetails = {
   ingredients: [
     // TODO
   ],
+  steps: [],
 };

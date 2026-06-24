@@ -7,12 +7,16 @@ export interface Ingredients {
   /**
    * Amount to use in this recipe for one person.
    */
-  amount: number;
+  amount?: number;
 
   /**
    * Unit of the amount, i.e. ml, kg, pieces, ...
    */
-  unit: string;
+  unit?: string;
+}
+
+export interface Step {
+  description: string;
 }
 
 export interface RecipeDetails {
@@ -22,4 +26,9 @@ export interface RecipeDetails {
    * List of ingredients of this recipe
    */
   ingredients: Ingredients[];
+
+  /**
+   * Steps to cook the recipe
+   */
+  steps: Step[];
 }
