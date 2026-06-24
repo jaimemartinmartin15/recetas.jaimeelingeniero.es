@@ -1,6 +1,18 @@
 :host {
-  display: flex;
-  gap: 40px;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 32px;
   padding: 40px;
+}
+
+app-recipe-preview {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  :host {
+    gap: 15px;
+    padding: 15px;
+  }
 }
