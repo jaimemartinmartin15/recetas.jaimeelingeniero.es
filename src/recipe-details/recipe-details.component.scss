@@ -6,6 +6,7 @@
   border-radius: 20px;
   box-shadow: 0 10px 30px #00000014;
   background: #f4f6f8;
+  margin: 8px;
 }
 
 h1 {
@@ -53,6 +54,7 @@ li {
 @media (max-width: 600px) {
   :host {
     border-radius: 0;
+    margin: 0;
   }
 
   h1 {
