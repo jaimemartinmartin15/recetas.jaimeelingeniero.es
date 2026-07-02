@@ -5,18 +5,13 @@ export interface RecipePreview {
   name: string;
 
   /**
-   * Time to cook the recipe in minutes.
-   */
-  timeToCook: number;
-
-  /**
    * Url to the assets image. Example: '/assets/name/name.png'.
    * Name is the name of this recipe in kebab-case.
    */
   image: string;
 
   /**
-   * Difficulty of this recipe.
+   * A color for the border of the preview
    */
-  difficulty: "easy" | "medium" | "difficult";
+  color: string;
 }

@@ -11,19 +11,9 @@ export class RecipePreviewComponent {
   @Input()
   public recipePreview: RecipePreview;
 
-  @HostBinding("attr.easy")
-  get difficultyEasy() {
-    return this.recipePreview.difficulty === "easy" || null;
-  }
-
-  @HostBinding("attr.medium")
-  get difficultyMedium() {
-    return this.recipePreview.difficulty === "medium" || null;
-  }
-
-  @HostBinding("attr.difficult")
-  get difficultyDifficult() {
-    return this.recipePreview.difficulty === "difficult" || null;
+  @HostBinding("style.color")
+  get color() {
+    return this.recipePreview.color;
   }
 
   @HostListener("click")
