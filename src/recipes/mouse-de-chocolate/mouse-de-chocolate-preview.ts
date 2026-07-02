@@ -1,4 +1,4 @@
-import { RecipePreview } from "../models/recipe-preview";
+import { RecipePreview } from "../../models/recipe-preview";
 
 export const MOUSE_DE_CHOCOLATE_PREVIEW: RecipePreview = {
   name: "Mouse de chocolate",

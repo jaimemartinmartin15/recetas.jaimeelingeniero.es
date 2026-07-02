@@ -1,4 +1,4 @@
-import { RecipePreview } from "../models/recipe-preview";
+import { RecipePreview } from "../../models/recipe-preview";
 
 export const MACARRONES_PREVIEW: RecipePreview = {
   name: "Macarrones",

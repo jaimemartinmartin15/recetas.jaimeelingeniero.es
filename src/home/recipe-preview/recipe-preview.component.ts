@@ -1,6 +1,6 @@
 import { Component, HostBinding, HostListener, Input } from "@angular/core";
 import { Router } from "@angular/router";
-import { RecipePreview } from "../../recipes/models/recipe-preview";
+import { RecipePreview } from "../../models/recipe-preview";
 
 @Component({
   selector: "app-recipe-preview",
