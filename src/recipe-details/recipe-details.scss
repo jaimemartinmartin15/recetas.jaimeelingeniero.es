@@ -33,6 +33,7 @@ ul.step-list {
     width: calc(100% - 20px);
     height: 100%;
     padding: 0px;
+    margin: auto;
     margin-bottom: 10px;
     scroll-snap-align: center;
     display: flex;
@@ -58,6 +59,10 @@ ul.step-list {
       img {
         width: 550px;
         max-width: 100%;
+      }
+
+      .long-text--180 {
+        font-size: 0.8em;
       }
     }
   }
