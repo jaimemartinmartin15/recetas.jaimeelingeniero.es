@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 821 826">
+  <defs>
+    <pattern id="bubbles" width="100" height="100" patternUnits="userSpaceOnUse">
+      <circle stroke-width="0" fill="#EDC542" cx="13.3" cy="14.6" r="10"></circle>
+      <circle stroke-width="0" fill="#EDC542" cx="66" cy="23" r="9"></circle>
+      <circle stroke-width="0" fill="#EDC542" cx="25.7" cy="76.2" r="11"></circle>
+      <circle stroke-width="0" fill="#EDC542" cx="83" cy="85.1" r="8"></circle>
+    </pattern>
+  </defs>
+
+  <g name="scale">
+    <path name="scale"
+      d="M7 683L55 236C69 168 130 153 185 155L603 155C658 153 719 178 733 227L781 683C786 783 735 816 663 823L125 823C53 816 2 783 7 683Z"
+      fill="#4b5662ff" stroke="#212b35ff" stroke-width="5" stroke-linecap="butt"
+      stroke-linejoin="miter" stroke-dasharray="" />
+    <text name="text_unit" x="71" y="756" font-size="40" font-family="Arial" fill="#fafafaff"
+      text-anchor="start" stroke="#f1fb19ff" stroke-width="0" stroke-linecap="butt"
+      stroke-linejoin="miter" stroke-dasharray="">
+      UNIDAD
+    </text>
+    <text name="text_tare" x="605" y="756" font-size="40" font-family="Arial" fill="#fafafaff"
+      text-anchor="start" stroke="#f1fb19ff" stroke-width="0" stroke-linecap="butt"
+      stroke-linejoin="miter" stroke-dasharray="">
+      TARA
+    </text>
+    <circle name="power_1" cx="649" cy="691" r="18" fill="#4b566200" stroke="#f8f8f9ff"
+      stroke-width="5" stroke-linecap="butt" stroke-dasharray="" />
+    <line name="power_2" x1="649" y1="691" x2="649" y2="663" stroke="#f8f8f9ff" stroke-width="5"
+      stroke-linecap="round" stroke-dasharray="" />
+    <rect name="display" x="244" y="645" width="334" height="137" rx="35" ry="35" fill="#1a242bff"
+      stroke="#f1fb19ff" stroke-width="0" stroke-linecap="butt" stroke-linejoin="miter"
+      stroke-dasharray="" />
+    <circle name="display_measure_indicator" cx="272" cy="679" r="9" fill="#1a242b00"
+      stroke="#17de72ff" stroke-width="5" stroke-linecap="butt" stroke-dasharray="" />
+    <text name="display_unit" x="521" y="754" font-size="40" font-family="Arial" fill="#2ca0fdff"
+      text-anchor="start" stroke="#2fa0f7ff" stroke-width="0" stroke-linecap="butt"
+      stroke-linejoin="miter" stroke-dasharray="" data-stroke-binding="unit">
+      ml
+    </text>
+    <text name="display_amout" x="516" y="754" font-size="112" font-family="Arial" fill="#2ca0fdff"
+      text-anchor="end" stroke="#2fa0f7ff" stroke-width="0" stroke-linecap="butt"
+      stroke-linejoin="miter" stroke-dasharray="" data-stroke-binding="amount">
+      333
+    </text>
+  </g>
+  <g name="stewpan">
+    <g name="left_handler">
+      <path name="inside"
+        d="M139.255 187.114L139.255 162.507 94.141 164.557 75.687 293.059 125.584 307.414 127.49799999999999 298.869 110.547 293.743C99.609 274.604 111.911 215.138 125.174 188.069Z"
+        fill="#60605fff" stroke="#7d7d7d00" stroke-width="13.671" stroke-linecap="butt"
+        stroke-linejoin="miter" stroke-dasharray="" />
+      <path name="base"
+        d="M143.356 368.931L33.991 327.919C10.068 317.666 -0.18400000000000016 294.426 2.5489999999999995 269.136L129.685 340.224"
+        fill="#a6a5a5ff" stroke="#7d7d7d00" stroke-width="13.671" stroke-linecap="butt"
+        stroke-linejoin="miter" stroke-dasharray="" />
+      <path name="big_foreground"
+        d="M152.925 133.115L70.219 137.214C51.763 137.9 35.36 149.519 26.472 161.821 8.7 195.314 -0.18400000000000016 244.529 1.8659999999999997 273.237 7.333 286.908 12.801 301.263 28.523 309.463L136.521 343.639V302.629C116.014 299.21 86.622 297.16 86.622 279.389 83.205 254.098 95.509 194.631 107.129 178.91 111.503 166.061 134.675 171.597 153.541 166.265"
+        fill="#cacac9ff" stroke="#7d7d7d00" stroke-width="13.671" stroke-linecap="butt"
+        stroke-linejoin="miter" stroke-dasharray="" />
+      <path name="curve_1" d="M38.09 155.669C64.067 202.149 42.193 252.04899999999998 7.333 275.288"
+        fill="#60605f00" stroke="#e4e4e4ff" stroke-width="6.835" stroke-linecap="butt"
+        stroke-linejoin="miter" stroke-dasharray="" />
+      <path name="curve_2"
+        d="M8.29 277.475C12.187 295.589 21.824 302.97 45.474 310.49L132.761 338.925"
+        fill="#60605f00" stroke="#e4e4e4ff" stroke-width="6.835" stroke-linecap="round"
+        stroke-linejoin="miter" stroke-dasharray="" />
+      <line name="line_1" x1="23.055" y1="192.581" x2="40.827" y2="195.314" stroke="#e4e4e4ff"
+        stroke-width="6.835" stroke-linecap="round" stroke-dasharray="" />
+      <line name="line_2" x1="16.903" y1="211.035" x2="38.09" y2="214.453" stroke="#e4e4e4ff"
+        stroke-width="6.835" stroke-linecap="round" stroke-dasharray="" />
+      <line name="line_3" x1="12.119" y1="229.49" x2="31.939999999999998" y2="232.227"
+        stroke="#e4e4e4ff" stroke-width="6.835" stroke-linecap="round" stroke-dasharray="" />
+    </g>
+    <g name="right_handler">
+      <path name="dark_inside"
+        d="M680.608 187.114L680.608 162.507 722.987 167.29 744.175 293.059 694.279 307.414 692.227 299.21 709.316 293.743C720.252 274.604 707.949 215.138 694.961 187.798Z"
+        fill="#60605fff" stroke="#7d7d7d00" stroke-width="13.671" stroke-linecap="butt"
+        stroke-linejoin="miter" stroke-dasharray="" />
+      <path name="base"
+        d="M676.506 368.931L785.87 327.919C809.795 317.666 820.049 294.426 817.313 269.136L690.178 340.224"
+        fill="#a6a5a5ff" stroke="#7d7d7d00" stroke-width="13.671" stroke-linecap="butt"
+        stroke-linejoin="miter" stroke-dasharray="" />
+      <path name="big_foreground"
+        d="M666.938 133.115L749.644 137.214C768.1 137.9 784.505 142.683 793.389 161.821 811.161 195.314 820.049 244.529 817.997 273.237 812.529 286.908 807.061 301.263 791.34 309.463L683.342 343.639V302.629C703.848 299.21 733.24 297.16 733.24 279.389 736.656 254.098 724.353 194.631 714.101 176.859 708.631 165.922 685.391 171.391 666.254 166.606"
+        fill="#cacac9ff" stroke="#7d7d7d00" stroke-width="13.671" stroke-linecap="butt"
+        stroke-linejoin="miter" stroke-dasharray="" />
+      <path name="curve_1"
+        d="M781.77 155.669C755.796 202.149 777.669 252.04899999999998 804.327 269.819"
+        fill="#60605f00" stroke="#e4e4e4ff" stroke-width="6.835" stroke-linecap="round"
+        stroke-linejoin="miter" stroke-dasharray="" />
+      <path name="curve_2"
+        d="M815.262 273.919C807.744 295.11 796.124 308.096 774.251 314.248L686.76 340.224"
+        fill="#60605f00" stroke="#e4e4e4ff" stroke-width="6.835" stroke-linecap="round"
+        stroke-linejoin="miter" stroke-dasharray="" />
+      <line name="line_1" x1="796.807" y1="192.581" x2="779.036" y2="195.314" stroke="#e4e4e4ff"
+        stroke-width="6.835" stroke-linecap="round" stroke-dasharray="" />
+      <line name="line_2" x1="802.959" y1="211.035" x2="781.77" y2="214.453" stroke="#e4e4e4ff"
+        stroke-width="6.835" stroke-linecap="round" stroke-dasharray="" />
+      <line name="line_3" x1="807.744" y1="229.49" x2="787.921" y2="232.227" stroke="#e4e4e4ff"
+        stroke-width="6.835" stroke-linecap="round" stroke-dasharray="" />
+    </g>
+    <path name="base_1"
+      d="M136.521 299.21C177.532 494.018 266.391 586.293 409.932 586.293S642.33 494.018 683.342 299.21"
+      fill="#ffffff00" stroke="#7d7d7dff" stroke-width="13.671" stroke-linecap="butt"
+      stroke-linejoin="miter" stroke-dasharray="" />
+    <path name="base_2"
+      d="M143.356 299.21C177.532 494.018 266.391 572.623 409.932 572.623S642.33 494.018 676.506 299.21"
+      fill="#a6a5a4ff" stroke="#a6a5a5ff" stroke-width="20.505" stroke-linecap="butt"
+      stroke-linejoin="miter" stroke-dasharray="" />
+    <path name="inside"
+      d="M137.82 263.051C148.551 126.21100000000001 262.427 10.763000000000002 426.541 23.613S652.651 120.33099999999999 682.591 194.085 624.832 505.774 461.264 508.986 183.821 479.047 134.608 261.479"
+      fill="#948b73ff" stroke="#7d7d7d00" stroke-width="13.671" stroke-linecap="butt"
+      stroke-linejoin="miter" stroke-dasharray="" />
+    <path name="soup"
+      d="M190.517 304.679A2.735 2.735 0 0 0 629.343 304.679 2.735 2.119 0 0 0 190.517 304.679"
+      fill="#dbb63dff" stroke="#a8841cff" stroke-width="6.835" stroke-linecap="butt"
+      stroke-linejoin="miter" stroke-dasharray="" />
+    <path name="bubbles"
+      d="M190.517 304.679A2.735 2.735 0 0 0 629.343 304.679 2.735 2.119 0 0 0 190.517 304.679"
+      fill="url(#bubbles)" stroke="#a8841cff" stroke-width="6.835" stroke-linecap="butt"
+      stroke-linejoin="miter" stroke-dasharray="" />
+    <path name="external_ring_1"
+      d="M156.343 258.882A2.735 2.529 0 0 0 663.52 258.882 2.735 2.305 0 0 0 156.343 258.882"
+      fill="#ffffff00" stroke="#a7a5a5ff" stroke-width="15.721" stroke-linecap="butt"
+      stroke-linejoin="miter" stroke-dasharray="" />
+    <path name="external_ring_2"
+      d="M149.508 258.2A2.735 2.495 0 0 0 670.356 258.2 2.735 2.372 0 0 0 149.508 258.2"
+      fill="#ffffff00" stroke="#f8f8f8ff" stroke-width="15.721" stroke-linecap="butt"
+      stroke-linejoin="miter" stroke-dasharray="" />
+    <path name="external_ring_3"
+      d="M129.001 258.2A2.735 2.495 0 0 0 690.861 258.2 2.735 2.372 0 0 0 129.001 258.2"
+      fill="#ffffff00" stroke="#bdbdbdff" stroke-width="27.341" stroke-linecap="butt"
+      stroke-linejoin="miter" stroke-dasharray="" />
+  </g>
+</svg>
