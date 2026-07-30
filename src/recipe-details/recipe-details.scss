@@ -42,6 +42,8 @@ ul.step-list {
     align-items: center;
 
     .card {
+      --inner-content-width: 550px;
+
       flex-grow: 1;
       display: flex;
       flex-direction: column;
@@ -57,12 +59,16 @@ ul.step-list {
       text-wrap: balance;
 
       img {
-        width: 550px;
+        width: var(--inner-content-width);
         max-width: 100%;
       }
 
-      .long-text--180 {
-        font-size: 0.8em;
+      span {
+        max-width: var(--inner-content-width);
+
+        &.long-text--180 {
+          font-size: 0.8em;
+        }
       }
     }
   }
