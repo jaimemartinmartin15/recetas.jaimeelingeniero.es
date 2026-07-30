@@ -47,15 +47,27 @@
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
+            "stylePreprocessorOptions": {
+              "includePaths": ["./node_modules"]
+            },
+            "namedChunks": true,
             "assets": [
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*.png",
+                "input": "src/recipes",
+                "output": "/assets/"
+              },
+              {
+                "glob": "**/*.svg",
+                "input": "src/recipes",
+                "output": "/assets/"
               }
             ],
-            "styles": [
-              "src/styles.scss"
-            ]
+            "styles": ["src/styles.scss"]
           },
           "configurations": {
             "production": {
@@ -92,6 +104,12 @@
             }
           },
           "defaultConfiguration": "development"
+        },
+        "icons": {
+          "builder": "@jaimemartinmartin15/jei-devkit-angular-builders:generate-icons",
+          "options": {
+            "configFile": "src/svg.json"
+          }
         }
       }
     }

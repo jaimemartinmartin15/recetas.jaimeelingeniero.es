@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 6 1018 866">
+  <defs>
+    <pattern id="bubbles" width="100" height="100" patternUnits="userSpaceOnUse">
+      <circle stroke-width="0" fill="#EDC542" cx="13.3" cy="14.6" r="10"></circle>
+      <circle stroke-width="0" fill="#EDC542" cx="66" cy="23" r="9"></circle>
+      <circle stroke-width="0" fill="#EDC542" cx="25.7" cy="76.2" r="11"></circle>
+      <circle stroke-width="0" fill="#EDC542" cx="83" cy="85.1" r="8"></circle>
+    </pattern>
+  </defs>
+  <g name="vitroceramica">
+    <path name="ceramic_hob_border"
+      d="M13 834L1017 834C1021 855 1021 868 1004 871L26 871C9 868 9 855 13 834" fill="#000000ff"
+      stroke="#484848ff" stroke-width="0" stroke-linecap="butt" stroke-linejoin="miter"
+      stroke-dasharray="" />
+    <path name="ceramic_hob_foreground"
+      d="M13 825L120 113C120 104 135 95 140 96L890 96C895 95 910 104 910 113L1018 825C1021 846 1021 859 1004 862L26 862C9 859 9 846 13 825"
+      fill="#444545ff" stroke="#484848ff" stroke-width="0" stroke-linecap="butt"
+      stroke-linejoin="miter" stroke-dasharray="" />
+    <path name="center" d="M260 420A5 4 0 0 0 770 425 4 3 0 0 0 260 425.1" fill="#00000000"
+      stroke="#898888ff" stroke-width="7" stroke-linecap="butt" stroke-linejoin="miter"
+      stroke-dasharray="7" />
+    <g name="buttons">
+      <rect name="button_power_1" x="270" y="775" width="90" height="46" rx="4" ry="4"
+        fill="#00000000" stroke="#d3d3d3ff" stroke-width="3" stroke-linecap="butt"
+        stroke-linejoin="miter" stroke-dasharray="" />
+      <circle name="button_power_2" cx="314.9" cy="798" r="12" fill="#00000000" stroke="#adff9dff"
+        stroke-width="2" stroke-linecap="butt" stroke-dasharray="" />
+      <line name="button_power_3" x1="315" y1="792" x2="315" y2="802" stroke="#adff9dff"
+        stroke-width="2" stroke-linecap="butt" stroke-dasharray="" />
+      <rect name="button_minus_1" x="385" y="775" width="76" height="46" rx="4" ry="4"
+        fill="#00000000" stroke="#d3d3d3ff" stroke-width="3" stroke-linecap="butt"
+        stroke-linejoin="miter" stroke-dasharray="" />
+      <line name="button_minus_2" x1="413" y1="798" x2="433" y2="798" stroke="#d3d3d3ff"
+        stroke-width="2" stroke-linecap="butt" stroke-dasharray="" />
+      <rect name="button_plus_1" x="486" y="775" width="76" height="46" rx="4" ry="4"
+        fill="#00000000" stroke="#d3d3d3ff" stroke-width="3" stroke-linecap="butt"
+        stroke-linejoin="miter" stroke-dasharray="" />
+      <line name="button_plus_horizontal" x1="514" y1="798" x2="534" y2="798" stroke="#d3d3d3ff"
+        stroke-width="2" stroke-linecap="butt" stroke-dasharray="" />
+      <line name="button_plus_vertical" x1="524" y1="788" x2="524" y2="808" stroke="#d3d3d3ff"
+        stroke-width="2" stroke-linecap="butt" stroke-dasharray="" />
+      <rect name="button_boost_1" x="587" y="775" width="90" height="46" rx="4" ry="4"
+        fill="#00000000" stroke="#ff0000ff" stroke-width="3" stroke-linecap="butt"
+        stroke-linejoin="miter" stroke-dasharray="" />
+      <text name="button_boost_2" x="632" y="804" font-size="18" font-family="Arial"
+        fill="#ff0000ff" text-anchor="middle" stroke="#ff0000ff" stroke-width="1"
+        stroke-linecap="butt" stroke-linejoin="miter" stroke-dasharray="">
+        BOOST
+      </text>
+      <rect name="button_timer_1" x="702" y="775" width="76" height="46" rx="4" ry="4"
+        fill="#00000000" stroke="#d3d3d3ff" stroke-width="3" stroke-linecap="butt"
+        stroke-linejoin="miter" stroke-dasharray="" />
+      <circle name="button_time_2" cx="740" cy="798" r="14" fill="#00000000" stroke="#d3d3d3ff"
+        stroke-width="2" stroke-linecap="butt" stroke-dasharray="" />
+      <path name="button_time_3" d="M740 788L740 797.8 745.1 803.6999999999999" fill="#00000000"
+        stroke="#d3d3d3ff" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter"
+        stroke-dasharray="" />
+    </g>
+  </g>
+  <g name="stewpan">
+    <g name="left_handler">
+      <path name="inside"
+        d="M249.255 193.114L249.255 168.507 204.14100000000002 170.557 185.687 299.059 235.584 313.414 237.498 304.869 220.547 299.743C209.60899999999998 280.604 221.911 221.138 235.174 194.069Z"
+        fill="#60605fff" stroke="#7d7d7d00" stroke-width="13.671" stroke-linecap="butt"
+        stroke-linejoin="miter" stroke-dasharray="" />
+      <path name="base"
+        d="M253.356 374.931L143.99099999999999 333.919C120.06799999999998 323.666 109.816 300.426 112.549 275.136L239.685 346.224"
+        fill="#a6a5a5ff" stroke="#7d7d7d00" stroke-width="13.671" stroke-linecap="butt"
+        stroke-linejoin="miter" stroke-dasharray="" />
+      <path name="big_foreground"
+        d="M262.925 139.115L180.219 143.214C161.763 143.9 145.36 155.519 136.472 167.821 118.69999999999999 201.314 109.816 250.529 111.86599999999999 279.237 117.333 292.908 122.80099999999999 307.263 138.523 315.463L246.52099999999996 349.639V308.629C226.014 305.21 196.622 303.16 196.622 285.389 193.20499999999998 260.098 205.50900000000001 200.631 217.12900000000002 184.91 221.503 172.061 244.675 177.597 263.541 172.265"
+        fill="#cacac9ff" stroke="#7d7d7d00" stroke-width="13.671" stroke-linecap="butt"
+        stroke-linejoin="miter" stroke-dasharray="" />
+      <path name="curve_1"
+        d="M148.09 161.669C174.067 208.149 152.19299999999998 258.049 117.333 281.288"
+        fill="#60605f00" stroke="#e4e4e4ff" stroke-width="6.835" stroke-linecap="butt"
+        stroke-linejoin="miter" stroke-dasharray="" />
+      <path name="curve_2"
+        d="M118.28999999999999 283.475C122.18700000000001 301.589 131.824 308.97 155.474 316.49L242.76099999999997 344.925"
+        fill="#60605f00" stroke="#e4e4e4ff" stroke-width="6.835" stroke-linecap="round"
+        stroke-linejoin="miter" stroke-dasharray="" />
+      <line name="line_1" x1="133.055" y1="198.581" x2="150.827" y2="201.314" stroke="#e4e4e4ff"
+        stroke-width="6.835" stroke-linecap="round" stroke-dasharray="" />
+      <line name="line_2" x1="126.90299999999999" y1="217.035" x2="148.09" y2="220.453"
+        stroke="#e4e4e4ff" stroke-width="6.835" stroke-linecap="round" stroke-dasharray="" />
+      <line name="line_3" x1="122.119" y1="235.49" x2="141.94" y2="238.227" stroke="#e4e4e4ff"
+        stroke-width="6.835" stroke-linecap="round" stroke-dasharray="" />
+    </g>
+    <g name="right_handler">
+      <path name="dark_inside"
+        d="M790.608 193.114L790.608 168.507 832.987 173.29 854.175 299.059 804.279 313.414 802.227 305.21 819.316 299.743C830.252 280.604 817.949 221.138 804.961 193.798Z"
+        fill="#60605fff" stroke="#7d7d7d00" stroke-width="13.671" stroke-linecap="butt"
+        stroke-linejoin="miter" stroke-dasharray="" />
+      <path name="base"
+        d="M786.506 374.931L895.87 333.919C919.795 323.666 930.049 300.426 927.313 275.136L800.178 346.224"
+        fill="#a6a5a5ff" stroke="#7d7d7d00" stroke-width="13.671" stroke-linecap="butt"
+        stroke-linejoin="miter" stroke-dasharray="" />
+      <path name="big_foreground"
+        d="M776.938 139.115L859.644 143.214C878.1 143.9 894.505 148.683 903.389 167.821 921.161 201.314 930.049 250.529 927.997 279.237 922.529 292.908 917.061 307.263 901.34 315.463L793.342 349.639V308.629C813.848 305.21 843.24 303.16 843.24 285.389 846.656 260.098 834.353 200.631 824.101 182.859 818.631 171.922 795.391 177.391 776.254 172.606"
+        fill="#cacac9ff" stroke="#7d7d7d00" stroke-width="13.671" stroke-linecap="butt"
+        stroke-linejoin="miter" stroke-dasharray="" />
+      <path name="curve_1" d="M891.77 161.669C865.796 208.149 887.669 258.049 914.327 275.819"
+        fill="#60605f00" stroke="#e4e4e4ff" stroke-width="6.835" stroke-linecap="round"
+        stroke-linejoin="miter" stroke-dasharray="" />
+      <path name="curve_2"
+        d="M925.262 279.919C917.744 301.11 906.124 314.096 884.251 320.248L796.76 346.224"
+        fill="#60605f00" stroke="#e4e4e4ff" stroke-width="6.835" stroke-linecap="round"
+        stroke-linejoin="miter" stroke-dasharray="" />
+      <line name="line_1" x1="906.807" y1="198.581" x2="889.036" y2="201.314" stroke="#e4e4e4ff"
+        stroke-width="6.835" stroke-linecap="round" stroke-dasharray="" />
+      <line name="line_2" x1="912.959" y1="217.035" x2="891.77" y2="220.453" stroke="#e4e4e4ff"
+        stroke-width="6.835" stroke-linecap="round" stroke-dasharray="" />
+      <line name="line_3" x1="917.744" y1="235.49" x2="897.921" y2="238.227" stroke="#e4e4e4ff"
+        stroke-width="6.835" stroke-linecap="round" stroke-dasharray="" />
+    </g>
+    <path name="base_1"
+      d="M246.52099999999996 305.21C287.53200000000004 500.018 376.391 592.293 519.932 592.293S752.33 500.018 793.342 305.21"
+      fill="#ffffff00" stroke="#7d7d7dff" stroke-width="13.671" stroke-linecap="butt"
+      stroke-linejoin="miter" stroke-dasharray="" />
+    <path name="base_2"
+      d="M253.356 305.21C287.53200000000004 500.018 376.391 578.623 519.932 578.623S752.33 500.018 786.506 305.21"
+      fill="#a6a5a4ff" stroke="#a6a5a5ff" stroke-width="20.505" stroke-linecap="butt"
+      stroke-linejoin="miter" stroke-dasharray="" />
+    <path name="inside"
+      d="M247.82 269.051C258.551 132.211 372.427 16.763 536.5409999999999 29.613S762.651 126.33099999999999 792.591 200.085 734.832 511.774 571.264 514.986 293.821 485.047 244.608 267.479"
+      fill="#948b73ff" stroke="#7d7d7d00" stroke-width="13.671" stroke-linecap="butt"
+      stroke-linejoin="miter" stroke-dasharray="" />
+    <path name="soup"
+      d="M300.517 310.679A2.735 2.735 0 0 0 739.343 310.679 2.735 2.119 0 0 0 300.517 310.679"
+      fill="#dbb63dff" stroke="#a8841cff" stroke-width="6.835" stroke-linecap="butt"
+      stroke-linejoin="miter" stroke-dasharray="" />
+    <path name="bubbles"
+      d="M300.517 310.679A2.735 2.735 0 0 0 739.343 310.679 2.735 2.119 0 0 0 300.517 310.679"
+      fill="url(#bubbles)" stroke="#a8841cff" stroke-width="6.835" stroke-linecap="butt"
+      stroke-linejoin="miter" stroke-dasharray="" />
+    <path name="external_ring_1"
+      d="M266.34299999999996 264.882A2.735 2.529 0 0 0 773.52 264.882 2.735 2.305 0 0 0 266.34299999999996 264.882"
+      fill="#ffffff00" stroke="#a7a5a5ff" stroke-width="15.721" stroke-linecap="butt"
+      stroke-linejoin="miter" stroke-dasharray="" />
+    <path name="external_ring_2"
+      d="M259.50800000000004 264.2A2.735 2.495 0 0 0 780.356 264.2 2.735 2.372 0 0 0 259.50800000000004 264.2"
+      fill="#ffffff00" stroke="#f8f8f8ff" stroke-width="15.721" stroke-linecap="butt"
+      stroke-linejoin="miter" stroke-dasharray="" />
+    <path name="external_ring_3"
+      d="M239.00099999999998 264.2A2.735 2.495 0 0 0 800.861 264.2 2.735 2.372 0 0 0 239.00099999999998 264.2"
+      fill="#ffffff00" stroke="#bdbdbdff" stroke-width="27.341" stroke-linecap="butt"
+      stroke-linejoin="miter" stroke-dasharray="" />
+  </g>
+</svg>

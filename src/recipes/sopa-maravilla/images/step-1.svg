@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 780">
+  <defs>
+    <pattern id="seeds" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="8" r="5" fill="#eac305ff" />
+      <circle cx="25" cy="7" r="5" fill="#e3bd03ff" />
+      <circle cx="11" cy="19.5" r="5" fill="#eac305ff" />
+      <circle cx="26" cy="28" r="5" fill="#eac305ff" />
+      <circle cx="-4" cy="28" r="5" fill="#eac305ff" />
+      <circle cx="26" cy="-2" r="5" fill="#eac305ff" />
+      <circle cx="-4" cy="-2" r="5" fill="#eac305ff" />
+      <circle cx="5" cy="5" r="5" fill="#f8d00cff" />
+      <circle cx="19" cy="5" r="5" fill="#f8d00cff" />
+      <circle cx="18" cy="14" r="5" fill="#f8d00cff" />
+      <circle cx="5" cy="15" r="5" fill="#f8d00cff" />
+      <circle cx="5" cy="25" r="5" fill="#f8d00cff" />
+      <circle cx="17" cy="25" r="5" fill="#f8d00cff" />
+      <circle cx="25" cy="20" r="5" fill="#f8d00cff" />
+      <circle cx="12" cy="2" r="5" fill="#fbe265ff" />
+      <circle cx="12" cy="32" r="5" fill="#fbe265ff" />
+      <circle cx="27" cy="11" r="5" fill="#fbe265ff" />
+      <circle cx="-3" cy="11" r="5" fill="#fbe265ff" />
+    </pattern>
+  </defs>
+
+  <g name="SCALE">
+    <path name="scale"
+      d="M3 637L51 190C65 122 126 107 181 109L599 109C654 107 715 132 729 181L777 637C782 737 731 770 659 777L121 777C49 770 -2 737 3 637Z"
+      fill="#4b5662ff" stroke="#212b35ff" stroke-width="5" stroke-linecap="butt"
+      stroke-linejoin="miter" stroke-dasharray="" />
+    <text name="text_unit" x="67" y="710" font-size="40" font-family="Arial" fill="#fafafaff"
+      text-anchor="start" stroke="#f1fb19ff" stroke-width="0" stroke-linecap="butt"
+      stroke-linejoin="miter" stroke-dasharray="">
+      UNIDAD
+    </text>
+    <text name="text_tare" x="601" y="710" font-size="40" font-family="Arial" fill="#fafafaff"
+      text-anchor="start" stroke="#f1fb19ff" stroke-width="0" stroke-linecap="butt"
+      stroke-linejoin="miter" stroke-dasharray="">
+      TARA
+    </text>
+    <circle name="power_1" cx="645" cy="645" r="18" fill="#4b566200" stroke="#f8f8f9ff"
+      stroke-width="5" stroke-linecap="butt" stroke-dasharray="" />
+    <line name="power_2" x1="645" y1="645" x2="645" y2="617" stroke="#f8f8f9ff" stroke-width="5"
+      stroke-linecap="round" stroke-dasharray="" />
+    <rect name="display" x="240" y="599" width="334" height="137" rx="35" ry="35" fill="#1a242bff"
+      stroke="#f1fb19ff" stroke-width="0" stroke-linecap="butt" stroke-linejoin="miter"
+      stroke-dasharray="" />
+    <circle name="display_measure_indicator" cx="268" cy="633" r="9" fill="#1a242b00"
+      stroke="#17de72ff" stroke-width="5" stroke-linecap="butt" stroke-dasharray="" />
+    <text name="display_unit" x="517" y="708" font-size="40" font-family="Arial" fill="#2ca0fdff"
+      text-anchor="start" stroke="#2fa0f7ff" stroke-width="0" stroke-linecap="butt"
+      stroke-linejoin="miter" stroke-dasharray="" data-stroke-binding="unit">
+      g
+    </text>
+    <text name="display_amout" x="512" y="708" font-size="112" font-family="Arial" fill="#2ca0fdff"
+      text-anchor="end" stroke="#2fa0f7ff" stroke-width="0" stroke-linecap="butt"
+      stroke-linejoin="miter" stroke-dasharray="" data-stroke-binding="amount">
+      35
+    </text>
+  </g>
+
+  <g name="BOWL">
+    <path name="bowl" d="M157 198L157 198A4 4.6 0 0 0 625 213 4 3.4 0 0 0 157 198" fill="#eee3d2ff"
+      stroke="#188de800" stroke-width="12" stroke-linecap="butt" stroke-linejoin="miter"
+      stroke-dasharray="" />
+    <path name="ring" d="M157 198A4 3.4 0 0 0 625 213 4 3.4 0 0 0 157 198" fill="#2ca0fd00"
+      stroke="#fefbf4ff" stroke-width="12" stroke-linecap="butt" stroke-linejoin="miter"
+      stroke-dasharray="" />
+    <path name="drawing_line" d="M184 327C285 466 499 466 600 327" fill="#eee3d200"
+      stroke="#8e5630ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="miter"
+      stroke-dasharray="36.3" />
+    <circle name="drawing_left_point" cx="305" cy="437" r="5.3" fill="#8e5630ff" stroke="#8e563000"
+      stroke-width="0" stroke-linecap="round" stroke-dasharray="" />
+    <circle name="drawing_center_point" cx="392" cy="456" r="6" fill="#8e5630ff" stroke="#8e563000"
+      stroke-width="0" stroke-linecap="round" stroke-dasharray="" />
+    <circle name="drawing_right_point" cx="479" cy="437" r="5.3" fill="#8e5630ff" stroke="#8e563000"
+      stroke-width="0" stroke-linecap="round" stroke-dasharray="" />
+  </g>
+
+  <g name="SOUP">
+    <ellipse cx="390" cy="272" rx="180" ry="125" fill="#A85F0C" />
+    <ellipse cx="390" cy="272" rx="185" ry="125" fill="url(#seeds)" />
+  </g>
+</svg>

@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 970 1071">
+  <defs>
+    <pattern id="seeds" width="35" height="40" patternUnits="userSpaceOnUse">
+      <circle name="circle_29" stroke="#aeaead00" fill="#f6ce0cff" stroke-width="0"
+        stroke-linecap="butt" stroke-dasharray="none" cx="8.799999999999955" cy="9.799999999999955"
+        r="4"></circle>
+      <circle name="circle_30" stroke="#aeaead00" fill="#f6ce0cff" stroke-width="0"
+        stroke-linecap="butt" stroke-dasharray="none" cx="16.299999999999955"
+        cy="26.799999999999955" r="3.7"></circle>
+      <circle name="circle_31" stroke="#aeaead00" fill="#f6ce0cff" stroke-width="0"
+        stroke-linecap="butt" stroke-dasharray="none" cx="30.299999999999955" cy="9.799999999999955"
+        r="3.8"></circle>
+      <circle name="circle_32" stroke="#aeaead00" fill="#f6ce0cff" stroke-width="0"
+        stroke-linecap="butt" stroke-dasharray="none" cx="32.5" cy="36.39999999999998" r="3.38"></circle>
+    </pattern>
+  </defs>
+  <g name="cazuela">
+    <path name="base_1"
+      d="M182.81 233.19L140.5 365.98C153.84 557.86 309.82 663.39 476.16 629.79 527.77 616.43 586.29 587.4 681.31 462.82"
+      fill="#a6a5a5ff" stroke="#7d7d7dff" stroke-width="24.34" stroke-linecap="round"
+      stroke-linejoin="round" stroke-dasharray="" />
+    <path name="base_2"
+      d="M182.81 233.19L154.35 318.45C150.23 335.84 143.02 350.61 140.42 364.53 150.4 533.51 309.82 663.39 478.41 624.57 526.6 613.5 586.29 589.66 681.31 462.82"
+      fill="#a6a5a4ff" stroke="#a6a5a4ff" stroke-width="24.34" stroke-linecap="round"
+      stroke-linejoin="round" stroke-dasharray="" />
+    <g name="left_handler">
+      <path name="outer_border"
+        d="M211.34 316.27L196.43 346.24 26.52 242.84C-2.84 226.14 -5.39 166.19 19.7 129.52V198.86Z"
+        fill="#c9c4c2ff" stroke="#ff830900" stroke-width="4.23" stroke-linecap="round"
+        stroke-linejoin="round" stroke-dasharray="" />
+      <path name="inner_border"
+        d="M226.44 124.66L128.57 104.16 75.69 218.59 151.83 260.81C125.38 240.63 106.84 222.08 115.49 196.66 121.18 175.95 127.58 148.98 145.2 138.85 160.56 134.04 190.93 138.01 216.21 147.48Z"
+        fill="#676565ff" stroke="#fc9229ff" stroke-width="0" stroke-linecap="round"
+        stroke-linejoin="round" stroke-dasharray="" />
+      <path name="big_upper_zone"
+        d="M229.72 102.33L103.64 70C77.29 61.45 51.1 67.67 37.02 86.46 17.58 112.71 -1.26 163.34 8.21 186.93 12.42 216.38 38.34 227.47 56.29 238.13L215.71 330.04 221.24 297.9 118.6 234.44C103.53 226.97 95.67 214.54 98.37 197.75 102.03 171.06 113.88 137.9 127.32 124.56 135.7 112.99 149.72 111.82 160.23 114L222.08 128.92Z"
+        fill="#b3b0afff" stroke="#504f4eff" stroke-width="0" stroke-linecap="round"
+        stroke-linejoin="round" stroke-dasharray="" />
+      <path name="curve_line"
+        d="M210.92 326.68L47.99 231.06C24.59 218.83 9.45 200.19 8.82 184.5 94.08 183.24 95.83 96.46 61.36 70.76"
+        fill="#c9c4c200" stroke="#e4e4e4ff" stroke-width="6.74" stroke-linecap="round"
+        stroke-linejoin="round" stroke-dasharray="" />
+      <line name="line_top" x1="43.22" y1="109.87" x2="60.51" y2="115.67" stroke="#e4e4e4ff"
+        stroke-width="4.23" stroke-linecap="round" stroke-dasharray="" />
+      <line name="line_middle" x1="33.14" y1="128.33" x2="55.8" y2="135.9" stroke="#e4e4e4ff"
+        stroke-width="4.23" stroke-linecap="round" stroke-dasharray="" />
+      <line name="line_bottom" x1="25.57" y1="150.18" x2="43.22" y2="155.2" stroke="#e4e4e4ff"
+        stroke-width="4.23" stroke-linecap="round" stroke-dasharray="" />
+    </g>
+    <g name="right_handler">
+      <path name="inner_border"
+        d="M725.87 445.37L810.47 450.59 812.83 320.14 757.77 300.42 752.57 326.52C774.98 310.4 783.63 369.83 776.72 414.08 776.72 429.27 761.2 438.39 746.17 444.79Z"
+        fill="#676565ff" stroke="#003cfeff" stroke-width="0" stroke-linecap="round"
+        stroke-linejoin="round" stroke-dasharray="" />
+      <path name="outter_border"
+        d="M682.39 493.49L820.39 489.94C849.34 489.94 867.3 471.38 864.45 454.68L705.55 460.4Z"
+        fill="#c9c4c2ff" stroke="#003cfeff" stroke-width="0" stroke-linecap="round"
+        stroke-linejoin="round" stroke-dasharray="" />
+      <path name="big_upper_zone"
+        d="M741.49 274.28L825.49 306.87C849.92 316.11 864.71 329.29 869.73 348.68 880.74 383.59 881.82 444.18 865.54 462.23 857.48 469.12 841.2 473.15 830.81 471.98L703.87 470.8 720.08 438.39 766.01 439.49C785.25 440.25 796.56 433.8 798.91 420.8 802.43 405.34 803.51 365.37 795.47 339.28 792.62 324.26 774.54 313.16 758.91 308.56Z"
+        fill="#b3b0afff" stroke="#948b7300" stroke-width="4.23" stroke-linecap="round"
+        stroke-linejoin="round" stroke-dasharray="" />
+      <path name="curve_line"
+        d="M706.75 472.55L809.97 475.58C841.12 477.09 866.97 464.24 871.84 446.45 803.83 438.33 816.78 334.66 854.21 327.72"
+        fill="#c9c4c200" stroke="#e4e4e4ff" stroke-width="6.74" stroke-linecap="round"
+        stroke-linejoin="round" stroke-dasharray="" />
+      <line name="line_top" x1="843.97" y1="358.34" x2="863.27" y2="358.34" stroke="#e4e4e4ff"
+        stroke-width="6.74" stroke-linecap="round" stroke-dasharray="" />
+      <line name="line_middle" x1="842.28" y1="389.34" x2="864.11" y2="389.34" stroke="#e4e4e4ff"
+        stroke-width="6.74" stroke-linecap="round" stroke-dasharray="" />
+      <line name="line_bottom" x1="848.18" y1="414.53" x2="866.63" y2="414.53" stroke="#e4e4e4ff"
+        stroke-width="6.74" stroke-linecap="round" stroke-dasharray="" />
+    </g>
+    <path name="boder_inner"
+      d="M250.54 129.17A50.37 43.64 36 0 0 692.89 445.61 57.07 43.64 34 0 0 250.54 129.17"
+      fill="#948b73ff" stroke="#a7a5a5ff" stroke-width="26.04" stroke-linecap="round"
+      stroke-linejoin="miter" stroke-dasharray="" />
+    <path name="boder_middle"
+      d="M243.82 107.35A50.37 42.81 36 0 0 715.54 446.45 57.07 42.81 35 0 0 243.82 107.35"
+      fill="#ffffff00" stroke="#f8f8f8ff" stroke-width="26.04" stroke-linecap="round"
+      stroke-linejoin="miter" stroke-dasharray="" />
+    <path name="boder_outter"
+      d="M225.36 93.08A50.37 42.81 36 0 0 723.09 448.98 57.07 42.81 34 0 0 225.36 93.08"
+      fill="#ffffff00" stroke="#bdbdbdff" stroke-width="24.34" stroke-linecap="round"
+      stroke-linejoin="miter" stroke-dasharray="" />
+  </g>
+  <g name="plato">
+    <path name="base"
+      d="M373 972.2C388.4 1014.7 472.29999999999995 1069.2 629.6 1066.1S880.9 1027.5 895.6 951.7"
+      fill="#e7e7e6ff" stroke="#aeaeadff" stroke-width="9" stroke-linecap="butt"
+      stroke-linejoin="miter" stroke-dasharray="" />
+    <path name="outer" d="M287 887A40 16 0 0 0 965 892 40 14 0 0 0 287 887" fill="#ffffffff"
+      stroke="#acababff" stroke-width="9" stroke-linecap="butt" stroke-linejoin="miter"
+      stroke-dasharray="" />
+    <path name="inner" d="M368 900A30 10 0 0 0 883 903 30 11 0 0 0 368 900" fill="#e4b130ff"
+      stroke="#adadadff" stroke-width="6.89" stroke-linecap="butt" stroke-linejoin="miter"
+      stroke-dasharray="" />
+    <path name="inner" d="M368 900A30 10 0 0 0 883 903 30 11 0 0 0 368 900" fill="url(#seeds)"
+      stroke="#adadadff" stroke-width="6.89" stroke-linecap="butt" stroke-linejoin="miter"
+      stroke-dasharray="" />
+  </g>
+  <path name="path_27"
+    d="M243.6 346.4C430.8 319.6 668.8 356 688.9 423.2 710 460.6 661.1 690 724.4 820.5L595.8 843.6C570.9 721.7 577.6 547 452.9 517.3 373.2 496.2 282 438.6 243.6 347.4"
+    fill="#e4b130ff" stroke="#aeaeadff" stroke-width="0" stroke-linecap="butt"
+    stroke-linejoin="miter" stroke-dasharray="" />
+  <path name="path_27"
+    d="M243.6 346.4C430.8 319.6 668.8 356 688.9 423.2 710 460.6 661.1 690 724.4 820.5L595.8 843.6C570.9 721.7 577.6 547 452.9 517.3 373.2 496.2 282 438.6 243.6 347.4"
+    fill="url(#seeds)" stroke="#aeaeadff" stroke-width="0" stroke-linecap="butt"
+    stroke-linejoin="miter" stroke-dasharray="" />
+</svg>

@@ -1,0 +1,32 @@
+:host,
+* {
+  box-sizing: border-box;
+}
+
+:host {
+  display: inline-flex;
+  flex-direction: column;
+  width: 140px;
+  border-radius: 5px;
+  border: 1px solid;
+  background-size: contain;
+  box-shadow: 5px 5px 30px 2px gainsboro;
+  cursor: pointer;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+  display: block;
+}
+
+.name {
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}

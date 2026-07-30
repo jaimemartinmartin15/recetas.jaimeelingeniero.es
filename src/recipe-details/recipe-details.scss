@@ -1,0 +1,75 @@
+@use "@jaimemartinmartin15/jei-devkit-angular-shared/styles/utils";
+
+:host {
+  --header-height: 84px;
+
+  display: block;
+  position: fixed;
+  inset: 0;
+}
+
+h1 {
+  height: var(--header-height);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 2.7rem;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0px 10px 0px gainsboro;
+}
+
+ul.step-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: calc(100% - var(--header-height));
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+
+  li.step-element {
+    width: calc(100% - 20px);
+    height: 100%;
+    padding: 0px;
+    margin: auto;
+    margin-bottom: 10px;
+    scroll-snap-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .card {
+      --inner-content-width: 550px;
+
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10%;
+      font-size: 1.5rem;
+      padding: 20px min(10%, 160px);
+      margin: 15px;
+      border-radius: 10px;
+      box-shadow: 2px 2px 5px 5px gainsboro;
+      text-align: center;
+      text-wrap: balance;
+
+      img {
+        width: var(--inner-content-width);
+        max-width: 100%;
+      }
+
+      span {
+        max-width: var(--inner-content-width);
+
+        &.long-text--180 {
+          font-size: 0.8em;
+        }
+      }
+    }
+  }
+}
