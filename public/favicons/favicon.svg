@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 577 597">
+  <path name="marca_1" d="M486 90L548 90 531 120 548 149 486 149" fill="#02a437ff" stroke="#002120ff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="" />
+  <path name="marca_2" d="M486 190L569 190 552 220 569 249 486 249" fill="#d4dd11ff" stroke="#002120ff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="" />
+  <path name="lomo" d="M71 8C35 8 8 13 8 49L8.1 549.3 70.6 509Z" fill="#b29524ff" stroke="#002120ff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="" />
+  <path name="portada" d="M71 8L461 9C484 9 491 21 491 49L491 469C491 497 484 509 461 509L71 509Z" fill="#e8c32fff" stroke="#002120ff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="" />
+  <g name="canto_inferior">
+    <path name="borde" d="M8 549C8 504 53 509 71 509L458.6 508.5C482 509 489.5 494.7 491 477L491 549C491 577 484 589 461 589L56 589C28 589 8 579 8 549" fill="#eaeae8ff" stroke="#002120ff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="" />
+    <line name="linea_corta" x1="46" y1="548" x2="111" y2="548" stroke="#002120ff" stroke-width="15" stroke-linecap="round" stroke-dasharray="" />
+    <line name="linea_larga" x1="148" y1="547" x2="447" y2="548.2" stroke="#002120ff" stroke-width="15" stroke-linecap="round" stroke-dasharray="" />
+    <path name="portada_inferior" d="M449 509L459 509C482 509 490 495 491 477L491 549C491 577 484 589 461 589L449 589Z" fill="#9d8420ff" stroke="#002120ff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="" />
+  </g>
+  <g name="batidor_varillas">
+    <path name="mango" d="M265 322C259 322 255 328 255 334L253 450C260 472 287 472 295 450L292 334C292 328 288 322 284 322Z" fill="#29375fff" stroke="#000000ff" stroke-width="6" stroke-linecap="butt" stroke-linejoin="miter" stroke-dasharray="" />
+    <path name="linea_1" d="M260 281C204 190 181 46 275 47S342 190 287 281" fill="#ffffff00" stroke="#000000ff" stroke-width="10" stroke-linecap="butt" stroke-linejoin="miter" stroke-dasharray="" />
+    <path name="linea_2" d="M266 281C237 190 202 46 275 47S310 190 281 281" fill="#ffffff00" stroke="#000000ff" stroke-width="10" stroke-linecap="butt" stroke-linejoin="miter" stroke-dasharray="" />
+    <path name="linea_3" d="M270 281C259 190 235 46 275 47S288 190 277 281" fill="#ffffff00" stroke="#000000ff" stroke-width="9" stroke-linecap="butt" stroke-linejoin="miter" stroke-dasharray="" />
+    <path name="join" d="M257 279H290 275V320" fill="#ffffff00" stroke="#000000ff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="" />
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 577 597" style="background-color: #a5856f">
+  <path name="marca_1" d="M431.4 169.5L469.6 169.5 459.1 187.99 469.6 205.85 431.4 205.85" fill="#02a437ff" stroke="#002120ff" stroke-width="9.24" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="" />
+  <path name="marca_2" d="M431.4 231.1L482.47 231.1 472.04 249.57 482.47 267.44 431.4 267.44" fill="#d4dd11ff" stroke="#002120ff" stroke-width="9.24" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="" />
+  <path name="lomo" d="M175.81 119C153.62 119 137 121.97999999999999 137 144.25L137.07999999999998 452.37 175.56 427.56Z" fill="#b29524ff" stroke="#002120ff" stroke-width="9.24" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="" />
+  <path name="portada" d="M175.81 119L416 119.75C430.15 119.75 434.49 127.02000000000001 434.49 144.25L434.49 402.93C434.49 420.17 430.15 427.56 416 427.56L175.81 427.56Z" fill="#e8c32fff" stroke="#002120ff" stroke-width="9.24" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="" />
+  <g name="canto_inferior">
+    <path name="borde" d="M137 452.21C137 424.47 164.72 427.56 175.81 427.56L414.51 427.27C428.93 427.56 433.55 418.76 434.49 407.85L434.49 452.21C434.49 469.41 430.15 476.79 416 476.79L166.56 476.79C149.35 476.79 137 470.7 137 452.21" fill="#eaeae8ff" stroke="#002120ff" stroke-width="9.24" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="" />
+    <line name="linea_corta" x1="160.4" y1="451.6" x2="200.42" y2="451.6" stroke="#002120ff" stroke-width="9.24" stroke-linecap="round" stroke-dasharray="" />
+    <line name="linea_larga" x1="223.22" y1="450.94" x2="407.38" y2="451.72" stroke="#002120ff" stroke-width="9.24" stroke-linecap="round" stroke-dasharray="" />
+    <path name="portada_inferior" d="M408.6 427.56L414.77 427.56C428.93 427.56 433.87 418.95 434.49 407.85L434.49 452.21C434.49 469.41 430.15 476.79 416 476.79L408.6 476.79Z" fill="#9d8420ff" stroke="#002120ff" stroke-width="9.24" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="" />
+  </g>
+  <g name="batidor_varillas">
+    <path name="mango" d="M295.28 312.38C291.6 312.38 289.13 316.05 289.13 319.79L287.89 391.22C292.21 404.78 308.84 404.78 313.75 391.22L311.89 319.79C311.89 316.05 309.44 312.38 306.99 312.38Z" fill="#29375fff" stroke="#000000ff" stroke-width="3.71" stroke-linecap="butt" stroke-linejoin="miter" stroke-dasharray="" />
+    <path name="linea_1" d="M292.21 287.13C257.72 231.1 243.56 142.4 301.45 143.03S342.71 231.1 308.84 287.13" fill="#ffffff00" stroke="#000000ff" stroke-width="6.19" stroke-linecap="butt" stroke-linejoin="miter" stroke-dasharray="" />
+    <path name="linea_2" d="M295.89 287.13C278.04 231.1 256.49 142.4 301.45 143.03S323.02 231.1 305.13 287.13" fill="#ffffff00" stroke="#000000ff" stroke-width="6.19" stroke-linecap="butt" stroke-linejoin="miter" stroke-dasharray="" />
+    <path name="linea_3" d="M298.35 287.13C291.6 231.1 276.82 142.4 301.45 143.03S309.44 231.1 302.66 287.13" fill="#ffffff00" stroke="#000000ff" stroke-width="5.57" stroke-linecap="butt" stroke-linejoin="miter" stroke-dasharray="" />
+    <path name="join" d="M290.36 285.93H310.71 301.45V311.15" fill="#ffffff00" stroke="#000000ff" stroke-width="5.57" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="" />
+  </g>
+</svg>
