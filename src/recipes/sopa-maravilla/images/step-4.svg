@@ -37,16 +37,15 @@
           repeatCount="indefinite" />
       </circle>
 
-      <circle cx="63" cy="30" r="1.3" fill="#FFD96A">
+      <circle cx="63" cy="30" r="4" fill="#FFD96A">
         <animate attributeName="cy"
           values="60;52;60"
           dur="1.4s"
           repeatCount="indefinite" />
         <animate attributeName="r"
-          values="4;5;4"
+          values="4;6;4"
           dur="0.5s"
           repeatCount="indefinite" />
-
       </circle>
 
       <circle cx="12" cy="15" r="3.5" fill="#FFD96A" />
@@ -93,9 +92,9 @@
       <line name="button_power_3" x1="315" y1="812" x2="315" y2="822" stroke="#d3d3d3ff"
         stroke-width="2" stroke-linecap="butt" stroke-dasharray="" />
       <rect name="button_minus_1" x="385" y="795" width="76" height="46" rx="4" ry="4"
-        fill="#00000000" stroke="#d3d3d3ff" stroke-width="3" stroke-linecap="butt"
+        fill="#00000000" stroke="#ff0000ff" stroke-width="3" stroke-linecap="butt"
         stroke-linejoin="miter" stroke-dasharray="" />
-      <line name="button_minus_2" x1="413" y1="818" x2="433" y2="818" stroke="#d3d3d3ff"
+      <line name="button_minus_2" x1="413" y1="818" x2="433" y2="818" stroke="#ff0000ff"
         stroke-width="2" stroke-linecap="butt" stroke-dasharray="" />
       <rect name="button_plus_1" x="486" y="795" width="76" height="46" rx="4" ry="4"
         fill="#00000000" stroke="#d3d3d3ff" stroke-width="3" stroke-linecap="butt"
@@ -113,12 +112,12 @@
         BOOST
       </text>
       <rect name="button_timer_1" x="702" y="795" width="76" height="46" rx="4" ry="4"
-        fill="#00000000" stroke="#d3d3d3ff" stroke-width="3" stroke-linecap="butt"
+        fill="#00000000" stroke="#ff0000ff" stroke-width="3" stroke-linecap="butt"
         stroke-linejoin="miter" stroke-dasharray="" />
-      <circle name="button_time_2" cx="740" cy="818" r="14" fill="#00000000" stroke="#d3d3d3ff"
+      <circle name="button_time_2" cx="740" cy="818" r="14" fill="#00000000" stroke="#ff0000ff"
         stroke-width="2" stroke-linecap="butt" stroke-dasharray="" />
       <path name="button_time_3" d="M740 808L740 817.8 745.1 823.6999999999999" fill="#00000000"
-        stroke="#d3d3d3ff" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter"
+        stroke="#ff0000ff" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter"
         stroke-dasharray="" />
     </g>
     <g name="displays">
