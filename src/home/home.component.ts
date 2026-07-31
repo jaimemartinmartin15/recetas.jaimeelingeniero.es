@@ -1,7 +1,6 @@
 import { Component } from "@angular/core";
-import { RecipeService } from "../services/recipes.service";
+import { RecipePreview } from "./recipe-preview/recipe-preview";
 import { RecipePreviewComponent } from "./recipe-preview/recipe-preview.component";
-import { RecipePreview } from "../models/recipe-preview";
 
 @Component({
   selector: "app-home",
@@ -10,11 +9,8 @@ import { RecipePreview } from "../models/recipe-preview";
   imports: [RecipePreviewComponent],
 })
 export class HomeComponent {
-  public recipePreviews: RecipePreview[] = [];
-
-  public constructor(private readonly recipeService: RecipeService) {}
-
-  public ngOnInit() {
-    return this.recipeService.getPreviews().subscribe((response) => (this.recipePreviews = response));
-  }
+  public recipePreviews: RecipePreview[] = [
+    { name: "Sopa maravilla", image: "/assets/sopa-maravilla/images/preview.svg" },
+    // schematic placeholder to enter more recipes
+  ];
 }

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="280 765 690 308">
+  <defs>
+    <pattern id="seeds" width="35" height="40" patternUnits="userSpaceOnUse">
+      <circle name="circle_29" stroke="#aeaead00" fill="#f6ce0cff" stroke-width="0"
+        stroke-linecap="butt" stroke-dasharray="none" cx="8.799999999999955" cy="9.799999999999955"
+        r="4"></circle>
+      <circle name="circle_30" stroke="#aeaead00" fill="#f6ce0cff" stroke-width="0"
+        stroke-linecap="butt" stroke-dasharray="none" cx="16.299999999999955"
+        cy="26.799999999999955" r="3.7"></circle>
+      <circle name="circle_31" stroke="#aeaead00" fill="#f6ce0cff" stroke-width="0"
+        stroke-linecap="butt" stroke-dasharray="none" cx="30.299999999999955" cy="9.799999999999955"
+        r="3.8"></circle>
+      <circle name="circle_32" stroke="#aeaead00" fill="#f6ce0cff" stroke-width="0"
+        stroke-linecap="butt" stroke-dasharray="none" cx="32.5" cy="36.39999999999998" r="3.38"></circle>
+    </pattern>
+  </defs>
+  <g name="plato">
+    <path name="base"
+      d="M373 972.2C388.4 1014.7 472.29999999999995 1069.2 629.6 1066.1S880.9 1027.5 895.6 951.7"
+      fill="#e7e7e6ff" stroke="#aeaeadff" stroke-width="9" stroke-linecap="butt"
+      stroke-linejoin="miter" stroke-dasharray="" />
+    <path name="outer" d="M287 887A40 16 0 0 0 965 892 40 14 0 0 0 287 887" fill="#ffffffff"
+      stroke="#acababff" stroke-width="9" stroke-linecap="butt" stroke-linejoin="miter"
+      stroke-dasharray="" />
+    <path name="inner" d="M368 900A30 10 0 0 0 883 903 30 11 0 0 0 368 900" fill="#e4b130ff"
+      stroke="#adadadff" stroke-width="6.89" stroke-linecap="butt" stroke-linejoin="miter"
+      stroke-dasharray="" />
+    <path name="inner" d="M368 900A30 10 0 0 0 883 903 30 11 0 0 0 368 900" fill="url(#seeds)"
+      stroke="#adadadff" stroke-width="6.89" stroke-linecap="butt" stroke-linejoin="miter"
+      stroke-dasharray="" />
+  </g>
+</svg>

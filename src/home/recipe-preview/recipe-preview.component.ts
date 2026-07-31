@@ -1,6 +1,6 @@
 import { Component, HostBinding, HostListener, Input } from "@angular/core";
 import { Router } from "@angular/router";
-import { RecipePreview } from "../../models/recipe-preview";
+import { RecipePreview } from "./recipe-preview";
 
 @Component({
   selector: "app-recipe-preview",
@@ -10,11 +10,6 @@ import { RecipePreview } from "../../models/recipe-preview";
 export class RecipePreviewComponent {
   @Input()
   public recipePreview: RecipePreview;
-
-  @HostBinding("style.color")
-  get color() {
-    return this.recipePreview.color;
-  }
 
   @HostListener("click")
   public openRecipe() {

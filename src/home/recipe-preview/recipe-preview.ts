@@ -1,6 +1,7 @@
 export interface RecipePreview {
   /**
    * Name of the recipe. Acts as id, thus must be unique.
+   * Used as segment of the url for the details (replace spaces with dash and all lowercase).
    */
   name: string;
 
@@ -9,9 +10,4 @@ export interface RecipePreview {
    * Name is the name of this recipe in kebab-case.
    */
   image: string;
-
-  /**
-   * A color for the border of the preview
-   */
-  color: string;
 }

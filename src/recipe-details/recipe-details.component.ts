@@ -1,12 +1,12 @@
-import { Component, HostListener } from "@angular/core";
+import { Component } from "@angular/core";
 
+/**
+ * Base class with shared functionality for all recipe details components.
+ */
+/*
+ * Use @Component in case angular features need to be used, such as @HostListener
+ */
 @Component({
   template: "",
 })
-export class RecipeDetailsComponent {
-  @HostListener("click", ["$event"])
-  public toggleListElement(event: MouseEvent) {
-    const liElement = (event.target as HTMLElement).closest("li");
-    liElement?.classList.toggle("completed");
-  }
-}
+export class RecipeDetailsComponent {}
