@@ -2,7 +2,7 @@ name: Build And Deploy
 run-name: Deploy recetas.jaimeelingeniero.es to AWS S3
 
 on:
-  workflow_dispatch:  # allow manual trigger
+  workflow_dispatch: # allow manual trigger
   push:
     tags: ["[1-9].[0-9][0-9]?.[0-9][0-9]?"]
 
@@ -12,9 +12,9 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Checkout
-        uses: actions/checkout@6
+        uses: actions/checkout@v6
       - name: Setup node
-        uses: actions/setup-node@6
+        uses: actions/setup-node@v6
         with:
           node-version: 24
           registry-url: https://npm.pkg.github.com/
@@ -28,7 +28,7 @@ jobs:
       - name: Build
         run: npm run build
       - name: Set AWS credentials
-        uses: aws-actions/configure-aws-credentials@6
+        uses: aws-actions/configure-aws-credentials@v6
         with:
           mask-aws-account-id: true
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
