@@ -20,6 +20,23 @@ export const routes: Routes = [
       { path: '**', redirectTo: '' },
     ],
   },
+  {
+    path: 'choricillos',
+    children: [
+      {
+        path: '',
+        loadComponent: () => import('../recipes/choricillos/choricillos.component').then((m) => m.ChoricillosComponent),
+        data: {
+          headTags: {
+            metaDescription: 'Como preparar unos chorizillos en la sartén.',
+            metaKeywords: ['choricillos', 'sartén'],
+            linkRelCanonical: 'https://recetas.jaimeelingeniero.es/choricillos',
+          } as HeadTags,
+        },
+      },
+      { path: '**', redirectTo: '' },
+    ],
+  },
   { path: '', pathMatch: 'full', component: HomeComponent },
   { path: '**', redirectTo: '' },
 ];

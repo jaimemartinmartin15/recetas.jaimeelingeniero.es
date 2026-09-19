@@ -11,6 +11,7 @@ import { RecipePreviewComponent } from "./recipe-preview/recipe-preview.componen
 export class HomeComponent {
   public recipePreviews: RecipePreview[] = [
     { name: "Sopa maravilla", image: "/assets/sopa-maravilla/images/preview.svg" },
+    { name: "Choricillos", image: "/assets/choricillos/images/preview.svg" },
     // schematic placeholder to enter more recipes
   ];
 }
