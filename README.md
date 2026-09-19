@@ -32,6 +32,22 @@ Run the application in **private IP address**:
 npm run start:public
 ```
 
+## Generate new recipes
+
+Execute this commands in the project root folder:
+
+Make sure the schematic is built:
+
+```text
+cd ./app-schematics && npm run build
+```
+
+Run the schematic to generate the files and folders.
+
+```text
+ng g ./app-schematics:recipe-page <recipe-name>
+```
+
 ## Deploy
 
 After doing the changes in your branch, increase the [package.json](./package.json) version and then run `npm i` to update the package-lock.json
