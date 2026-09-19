@@ -37,6 +37,7 @@ export const routes: Routes = [
       { path: '**', redirectTo: '' },
     ],
   },
+  // schematic placeholder to enter more routes
   { path: '', pathMatch: 'full', component: HomeComponent },
   { path: '**', redirectTo: '' },
 ];
